@@ -58,15 +58,15 @@ public class Albun {
     /**
      * @return the cancion
      */
-    public List<Cancion> getCancion() {
-        return cancion;
+    public List<Cancion> getCanciones() {
+        return canciones;
     }
 
     /**
      * @param cancion the cancion to set
      */
-    public void setCancion(List<Cancion> cancion) {
-        this.cancion = cancion;
+    public void setCanciones(List<Cancion> canciones) {
+        this.canciones = canciones;
     }
 
     /**
@@ -82,9 +82,10 @@ public class Albun {
     public void setGenero(Genero genero) {
         this.genero = genero;
     }
+    
     private String nombre;
     private Artista artista;
     private int lanzamiento;
-    private List<Cancion> cancion;
+    private List<Cancion> canciones;
     private Genero genero;
 }
